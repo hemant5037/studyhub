@@ -1,0 +1,20 @@
+{
+  "name": "studyhub",
+  "version": "1.0.0",
+  "description": "StudyNotion-EdTech Full Stack EdTech platform using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemant5037/studyhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemant5037/studyhub/issues"
+  },
+  "homepage": "https://github.com/hemant5037/studyhub#readme"
+}
