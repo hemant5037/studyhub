@@ -10,3 +10,19 @@ const mailSender = async (email, title, body) => {
       },
       secure: false,
     })
+
+    let info = await transporter.sendMail({
+      from: `"Studynotion | Hemant" <${process.env.MAIL_USER}>`, // sender address
+      to: `${email}`, // list of receivers
+      subject: `${title}`, // Subject line
+      html: `${body}`, // html body
+    })
+    console.log(info.response)
+    return info
+  } catch (error) {
+    console.log(error.message)
+    return error.message
+  }
+}
+
+module.exports = mailSender
