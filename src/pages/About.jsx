@@ -12,7 +12,7 @@ import Quote from "../components/core/AboutPage/Quote"
 import StatsComponenet from "../components/core/AboutPage/Stats"
 import HighlightText from "../components/core/HomePage/HighlightText"
 
-const About = () =>  {
+const About = () => {
   return (
     <div>
       <section className="bg-richblack-700">
