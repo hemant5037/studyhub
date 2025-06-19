@@ -25,4 +25,4 @@ export default function ConfirmationModal({ modalData }) {
       </div>
     </div>
   )
-}
+} // some
