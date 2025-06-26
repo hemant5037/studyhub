@@ -19,6 +19,7 @@ exports.capturePayment = async (req, res) => {
   }
 
   let total_amount = 0
+  // amount initially will be 0
 
   for (const course_id of courses) {
     let course
