@@ -20,6 +20,7 @@ exports.updateCourseProgress = async (req, res) => {
       courseID: courseId,
       userId: userId,
     })
+    // checking for the course progress it is completed or not 
 
     if (!courseProgress) {
       // If course progress doesn't exist, create a new one
