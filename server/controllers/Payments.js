@@ -62,6 +62,7 @@ exports.capturePayment = async (req, res) => {
     res.json({
       success: true,
       data: paymentResponse,
+      key: process.env.RAZORPAY_KEY || "rzp_test_cEtswxj6pxi3Kd",
     })
   } catch (error) {
     console.log(error)
