@@ -18,7 +18,7 @@ exports.createCourse = async (req, res) => {
       courseDescription,
       whatYouWillLearn,
       price,
-      tag: _tag,
+      tag: _tag, // it is the object id can we fetch this from model
       category,
       status,
       instructions: _instructions,
