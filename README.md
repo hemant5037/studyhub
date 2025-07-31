@@ -7,14 +7,14 @@ StudyNotion-EdTech Full Stack EdTech platform using MERN stack
 
 Usage To run this web on your computer, follow these steps:
 
-Clone the repository to your local machine.
 
-git clone https://github.com/hemant5037/StudyNotion-EdTech.git Install the required packages.
+
+
 
 cd StudyNotion-EdTech npm install Start the development server:
 
 npm run dev Open the project in your browser at http://localhost:3000 to view your project.
 
-Thanks to the https://github.com/AnuragSingh14032 who have contributed to this project.
+Thanks to the https://github.com/samarpratapjnv046 who have contributed to this project.
 
 
