@@ -32,6 +32,7 @@
         origin: [
             "http://localhost:3000",
             "https://localhost:3000",
+            "https://studyhub-lac.vercel.app",
             process.env.FRONTEND_URL
         ].filter(Boolean),
         credentials: true,
