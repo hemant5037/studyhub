@@ -1,12 +1,12 @@
 
-// Importing required modules
+
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 const User = require("../models/User");
-// Configuring dotenv to load environment variables from .env file
+
 dotenv.config();
 
-// This function is used as middleware to authenticate user requests
+
 exports.auth = async (req, res, next) => {
 	try {
 	  // Extracting JWT from request cookies, body or header
